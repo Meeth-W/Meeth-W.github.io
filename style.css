@@ -15,6 +15,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 20px; /* Padding for mobile screens */
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -70,10 +71,11 @@ nav ul {
     padding: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
 }
 
 nav li {
-    margin: 0 15px;
+    margin: 5px 10px;
 }
 
 nav a {
@@ -98,7 +100,7 @@ main {
 
 section {
     min-height: 50vh;
-    padding: 60px 20px;
+    padding: 40px 20px; /* Reduced padding for mobile */
     text-align: center;
 }
 
@@ -149,6 +151,7 @@ h2::after {
 
 .stat-box {
     margin: 10px;
+    min-width: 250px; /* Minimum width for smaller screens */
 }
 
 /* Typing Animation */
@@ -166,4 +169,58 @@ h2::after {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 2.5rem; /* Smaller font size on smaller screens */
+    }
+    
+    .intro p {
+        font-size: 1.2rem;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding: 20px; /* More padding for touch-friendly navigation */
+    }
+    
+    section {
+        padding: 20px 10px;
+    }
+    
+    .skills-list, .projects-list, .contact-list {
+        padding: 15px;
+    }
+    
+    .stat-box {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 2rem;
+    }
+    
+    .intro p {
+        font-size: 1rem;
+    }
+    
+    .intro-links .button {
+        padding: 8px 16px;
+    }
+    
+    nav ul {
+        padding: 15px;
+    }
+    
+    section {
+        padding: 15px 10px;
+    }
+    
+    .stat-box {
+        width: 100%; /* Full width for very small screens */
+    }
 }
