@@ -1,62 +1,107 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-	background-color: #1abc9c;
-	color: white;
-	padding: 80px;
-	text-align: center;
+    background-color: #124e8f;
+    color: white;
+    height: 100vh; /* Full page height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0d253f;
+    border-bottom: 2px solid #1abc9c;
+    z-index: 1000;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 nav li {
-	margin-right: 20px;
+    margin: 0 15px;
 }
 
 nav a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-	color: #ddd;
+    color: #1abc9c;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
+    margin-top: 60px; /* To prevent content from being hidden under the fixed nav */
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+section {
+    min-height: 50vh; /* Each section takes up at least half the viewport height */
+    padding: 60px 20px;
+    text-align: center;
 }
 
 h2 {
-	margin-top: 0;
+    color: #1abc9c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p, ul {
+    line-height: 1.6;
 }
 
 ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+    list-style: none;
+    padding: 0;
 }
 
-li {
-	margin-bottom: 10px;
+ul li {
+    margin-bottom: 10px;
 }
 
 footer {
-	background-color: #333;
-	color: white;
-	padding: 10px;
-	text-align: center;
-	clear: both;
+    background-color: #0d253f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
