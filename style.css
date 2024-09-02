@@ -1,8 +1,7 @@
-/* Global Styles */
 body {
-    background-color: #0A0C21; /* Deep navy blue */
-    color: #E8E9F3; /* Soft light gray */
-    font-family: 'Courier New', Courier, monospace; /* Coding-style font */
+    background-color: #0A0C21; 
+    color: #E8E9F3; 
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -10,12 +9,12 @@ body {
 
 header {
     background: linear-gradient(135deg, #0A0C21, #244a87); /* Gradient of blue shades */
-    height: 100vh; /* Full page height */
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 20px; /* Padding for mobile screens */
+    padding: 0 20px; 
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -25,7 +24,7 @@ header {
     color: #F0F4FF;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid #F0F4FF; /* Blinking cursor */
+    border-right: 3px solid #F0F4FF;
     width: 0;
     animation: typing 3s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
 }
@@ -33,7 +32,7 @@ header {
 .intro p {
     font-size: 1.5rem;
     margin: 10px 0;
-    animation: fadeIn 2s ease-in-out 3s forwards; /* Fade-in for the subheading */
+    animation: fadeIn 2s ease-in-out 3s forwards; 
     opacity: 0;
 }
 
@@ -71,7 +70,7 @@ nav ul {
     padding: 10px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow wrapping on small screens */
+    flex-wrap: wrap; 
 }
 
 nav li {
@@ -93,14 +92,14 @@ nav a:hover {
 }
 
 main {
-    margin-top: 60px; /* To prevent content from being hidden under the fixed nav */
+    margin-top: 60px;
     padding: 20px;
     animation: fadeIn 1.5s ease-in-out;
 }
 
 section {
     min-height: 50vh;
-    padding: 40px 20px; /* Reduced padding for mobile */
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -151,10 +150,9 @@ h2::after {
 
 .stat-box {
     margin: 10px;
-    min-width: 250px; /* Minimum width for smaller screens */
+    min-width: 250px; 
 }
 
-/* Typing Animation */
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -165,16 +163,14 @@ h2::after {
     50% { border-color: #F0F4FF; }
 }
 
-/* Additional Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .intro h1 {
-        font-size: 2.5rem; /* Smaller font size on smaller screens */
+        font-size: 2.5rem; 
     }
     
     .intro p {
@@ -183,7 +179,7 @@ h2::after {
     
     nav ul {
         flex-direction: column;
-        padding: 20px; /* More padding for touch-friendly navigation */
+        padding: 20px; 
     }
     
     section {
@@ -221,6 +217,6 @@ h2::after {
     }
     
     .stat-box {
-        width: 100%; /* Full width for very small screens */
+        width: 100%; 
     }
 }
