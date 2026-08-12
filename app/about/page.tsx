@@ -21,7 +21,7 @@ import { Reveal } from "@/components/effects/Reveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meeth W — known online as Ghostyy. Final-year IT engineering student at Thakur College of Engineering & Technology, building AI systems, security tooling and full-stack applications.",
+    "Meeth W — known online as Ghostyy. Final-year IT engineering student, building AI systems, security tooling and full-stack applications.",
   alternates: { canonical: "/about" },
 };
 
@@ -76,11 +76,8 @@ export default function AboutPage() {
           {/* ---- Prose ---- */}
           <div className="space-y-6 text-lg leading-[1.75] text-fg-dim">
             <p>
-              I&apos;m in my final year of a B.E. in Information Technology at{" "}
-              <span className="text-fg">
-                Thakur College of Engineering &amp; Technology
-              </span>
-              . Most of what I actually know came from building things slightly
+              I&apos;m in my final year of a B.E. in Information Technology. 
+              Most of what I actually know came from building things slightly
               beyond what I could justify at the time, then having to understand
               them well enough to fix what broke.
             </p>
