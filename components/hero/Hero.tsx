@@ -8,7 +8,7 @@ import { Terminal } from "@/components/terminal/Terminal";
 import { BootSequence, type BootStep } from "@/components/terminal/BootSequence";
 
 const boot: BootStep[] = [
-  { command: "whoami", output: "meeth waghela · ghostyy" },
+  { command: "whoami", output: "meeth W · ghostyy" },
   { command: "cat ~/.focus", output: "ai · security · systems · research" },
   {
     command: "./status --now",
@@ -36,7 +36,7 @@ export function Hero() {
             </p>
 
             <h1 className="mt-6 font-display text-5xl leading-[0.95] font-medium tracking-tight sm:text-6xl lg:text-7xl">
-              <span className="text-gradient">Meeth Waghela</span>
+              <span className="text-gradient">Meeth W</span>
             </h1>
 
             <p

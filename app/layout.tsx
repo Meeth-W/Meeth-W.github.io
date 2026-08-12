@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   authors: [{ name: site.name, url: site.github }],
   creator: site.name,
   keywords: [
-    "Meeth Waghela",
+    "Meeth W",
     "Ghostyy",
     "AI engineer",
     "cybersecurity",

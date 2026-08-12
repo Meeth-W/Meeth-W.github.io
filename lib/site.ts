@@ -1,13 +1,13 @@
 export const site = {
   handle: "ghostyy",
-  name: "Meeth Waghela",
+  name: "Meeth W",
   alias: "Ghostyy",
-  title: "Ghostyy — Meeth Waghela",
+  title: "Ghostyy — Meeth W",
   tagline: "AI · Security · Systems",
   description:
-    "Meeth Waghela / Ghostyy — IT engineer building AI systems, cybersecurity tools, full-stack applications and experimental software.",
+    "Meeth W / Ghostyy — IT engineer building AI systems, cybersecurity tools, full-stack applications and experimental software.",
   url: "https://meeth-w.github.io",
-  location: "Mumbai, India",
+  location: "Asia, Pacific",
   education: {
     degree: "B.E. Information Technology",
     institution: "Thakur College of Engineering & Technology",

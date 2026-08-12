@@ -7,7 +7,7 @@ import { ProjectExplorer } from "@/components/projects/ProjectExplorer";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Security tooling, AI systems and full-stack applications built by Meeth Waghela (Ghostyy) — including BASIS SDK, a zero-day malware behaviour predictor, and graph-based fraud detection.",
+    "Security tooling, AI systems and full-stack applications built by Meeth W (Ghostyy) — including BASIS SDK, a zero-day malware behaviour predictor, and graph-based fraud detection.",
   alternates: { canonical: "/projects" },
 };
 

@@ -2,7 +2,7 @@
   "name": "ghostyy-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Ghostyy — Meeth Waghela's personal site. Next.js static export, deployed to GitHub Pages.",
+  "description": "Ghostyy — Meeth W's personal site. Next.js static export, deployed to GitHub Pages.",
   "scripts": {
     "dev": "next dev",
     "build": "next build && node scripts/finalize-export.mjs",

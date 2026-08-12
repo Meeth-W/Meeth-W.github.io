@@ -11,7 +11,7 @@ import { Reveal } from "@/components/effects/Reveal";
 export const metadata: Metadata = {
   title: "Lab",
   description:
-    "Experiments, tools, Minecraft mods and coursework that escaped — the smaller things Meeth Waghela (Ghostyy) has built.",
+    "Experiments, tools, Minecraft mods and coursework that escaped — the smaller things Meeth W (Ghostyy) has built.",
   alternates: { canonical: "/lab" },
 };
 

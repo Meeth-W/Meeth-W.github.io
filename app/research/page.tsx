@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Research",
   description:
-    "Open engineering questions Meeth Waghela (Ghostyy) is working through — AI memory and token efficiency, behavioural cybersecurity, graph intelligence, retrieval architecture and local model efficiency.",
+    "Open engineering questions Meeth W (Ghostyy) is working through — AI memory and token efficiency, behavioural cybersecurity, graph intelligence, retrieval architecture and local model efficiency.",
   alternates: { canonical: "/research" },
 };
 

@@ -21,7 +21,7 @@ import { Reveal } from "@/components/effects/Reveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meeth Waghela — known online as Ghostyy. Final-year IT engineering student at Thakur College of Engineering & Technology, building AI systems, security tooling and full-stack applications.",
+    "Meeth W — known online as Ghostyy. Final-year IT engineering student at Thakur College of Engineering & Technology, building AI systems, security tooling and full-stack applications.",
   alternates: { canonical: "/about" },
 };
 
@@ -63,7 +63,7 @@ export default function AboutPage() {
     <>
       <PageHeader
         path="~/about"
-        title="Meeth Waghela"
+        title="Meeth W"
         lead="Known online as Ghostyy. Final-year IT engineering student, and someone who has never been able to leave a system alone once it started behaving strangely."
         meta={[
           { label: "Alias", value: "ghostyy" },
@@ -114,7 +114,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <div>
                   <Command>whoami</Command>
-                  <Output>meeth waghela · ghostyy</Output>
+                  <Output>meeth W · ghostyy</Output>
                 </div>
                 <div>
                   <Command>cat /etc/education</Command>
