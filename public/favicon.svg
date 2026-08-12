@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="7" fill="#0B0B12"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="none" stroke="#8B7EFF" stroke-opacity="0.35"/>
+  <!-- Ghost silhouette. Deliberately chunky: at 16px anything thinner disappears. -->
+  <path d="M6 25V15a10 10 0 0 1 20 0v10c0 2.4-2.2 3.2-4 1.6-1.3-1.2-2.9-1.2-4.2.2-1.3 1.5-2.9 1.5-4.2 0-1.3-1.4-2.9-1.4-4.2-.2C7.9 28.2 6 27.4 6 25Z" fill="#B8A7FF"/>
+  <circle cx="12.2" cy="15" r="2.4" fill="#0B0B12"/>
+  <circle cx="19.8" cy="15" r="2.4" fill="#0B0B12"/>
+</svg>
