@@ -10,7 +10,7 @@ export const site = {
   location: "Asia, Pacific",
   education: {
     degree: "B.E. Information Technology",
-    institution: "Thakur College of Engineering & Technology",
+    institution: "Mumbai University",
     year: "Final year",
   },
   email: "meeth2111@gmail.com",
